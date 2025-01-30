@@ -1,6 +1,7 @@
+<!--
 ---
-name: Azure Function using OpenAI trigger and bindings extension to highlight OpenAI retrieval augmented generation with Azure AI Search.
-description: This repository contains an Azure Function using OpenAI trigger and bindings extension to highlight OpenAI retrieval augmented generation with Azure AI Search. The sample uses managed identity.
+name: .NET Azure Functions using OpenAI extension for OpenAI retrieval augmented generation with Azure AI Search
+description: This repository contains a .NET Azure Function using OpenAI trigger and bindings extension to highlight OpenAI retrieval augmented generation with Azure AI Search. The sample uses managed identity.
 page_type: sample
 products:
 - azure-functions
@@ -12,6 +13,7 @@ languages:
 - bicep
 - azdeveloper
 ---
+-->
 
 # Azure Functions
 ## Using Azure Functions OpenAI trigger and bindings extension to import data and query with Azure Open AI and Azure AI Search
@@ -36,7 +38,7 @@ You can learn more about the OpenAI trigger and bindings extension in the [GitHu
 
 Once you have your Azure subscription, run the following in a new terminal window to create Azure OpenAI, Azure AI Search and other resources needed: You will be asked if you want to enable a virtual network that will lock down your OpenAI and AI Search services so they are only available from the deployed function app over private endpoints. To skip virtual network integration, select true. If you select networking, your local IP will be added to the OpenAI and AI Search services so you can debug locally.
 ```bash
-azd init --template https://github.com/eamonoreilly/azure-functions-openai-aisearch-dotnet8
+azd init --template https://github.com/Azure-Samples/azure-functions-openai-aisearch-dotnet
 ```
 Mac/Linux:
 ```bash
